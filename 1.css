@@ -1,0 +1,199 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+#employee {
+   width: 100%;
+   height: 60px;
+   background-color:  #4286f5;
+   color:  orange;
+   padding-top: 20px;
+   padding-left: 100px;
+
+}
+
+#employee , h5{
+    font-size: larger;
+}
+.uper-btn{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    padding: 30px;
+   
+}
+.uper-btn  .left-btn{
+
+    width: 50%;
+    height: 40px;
+    background-color: white;
+   
+
+}
+.uper-btn .right-btn{
+    width: 50%;
+    height: 40px;
+    background-color:  white
+}
+
+.uper-btn  .left-btn button {
+    border: none;
+    outline: none;
+    font-size: small;
+    background-color: orange;
+    padding: 10px;
+    margin-left: 40px;
+    
+ 
+}
+
+
+.uper-btn .right-btn button {
+    padding: 10px;
+   
+
+}
+
+.uper-btn .right-btn {
+    width: 50%;
+
+    height: 20px;
+}
+.tablebox{
+    width: 100%;
+    padding: 30px;
+
+}
+
+.tablebox table{
+    border: solid 1px  #4286f5;
+    width: 100%;
+ 
+}
+.tablebox table tr th{
+    border: solid 1px orange;
+    padding: 20px;
+
+}
+.tablebox table tr td{
+    padding: 10px 0px 0px;
+     border-right: 1px solid black;
+    text-align: center;
+
+}
+.tablebox table tr td button{
+    background-color:  #4286f5
+   
+}
+
+
+.modal{
+    display: flex;
+    height : 500px;
+    width: 50%;
+
+    position: fixed;
+    background-color: blueviolet;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-top: 20px groove #4286f5;
+    position : relative; 
+    opacity: 0;
+    z-index: -1;
+    transition: 0.5s ease-in-out;
+}
+
+     .modal.active{
+ 
+        z-index: 1;
+        opacity: 1;
+     }
+
+     
+
+
+      
+
+
+
+.modal .closeicon{
+    position: absolute;
+    right : 0;
+    top: -40px;
+    right: -20px;
+    font-size: 30px;
+    padding: 10px;
+    color: orange;
+}
+.left-modal{
+    width: 30%;
+    height: 100%;
+    background-color:  #f2f2f2;;
+}
+.right-modal{
+    width: 70%;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+.modal .left-modal .imagebox{
+    padding: 30px;
+    display: flex;
+    position: relative;
+    background-color: #f2f2f2;
+   
+}
+.modal .left-modal{
+    border-bottom: 10px groove #4286f5;
+}
+.modal .left-modal .imagebox img{
+    border-radius: 20px;
+} 
+
+.modal .left-modal .imagebox i{
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 90px;
+}
+
+.modal .right-modal{
+    border-left: 10px groove #4286f5;
+    padding: 30px;
+    border-bottom:10px groove #4286f5;
+   
+}
+
+.modal .right-modal .input-box{
+ 
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.modal .right-modal .input-box label{
+    padding: 15px;
+}
+
+.modal .right-modal .input-box input{
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    border-bottom:1.5px groove #4286f5;
+ 
+}
+.modal .right-modal .btn-2 button{
+    border: none;
+    outline: none;
+    font-size: large;
+    background-color: orange;
+    padding: 10px 40px 10px 40px;
+    margin-left: 40px;
+    margin-top: 120px;
+    
+    
+}
